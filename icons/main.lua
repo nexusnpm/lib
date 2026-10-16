@@ -10,7 +10,7 @@ local function ensureLucide()
     if lucideLoaded then return end
     lucideLoaded = true
 
-    local FILE = "novaicon.lua"
+    local FILE = "lucide-icons.lua"
     if not isfile(FILE) then
         local ok, content = pcall(game.HttpGet, game,
             "https://raw.githubusercontent.com/nexusnpm/lib/main/icons/icons.lua")
